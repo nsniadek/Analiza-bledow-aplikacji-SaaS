@@ -1,4 +1,4 @@
-**SaaS Application Error Analysis — Power BI Dashboard**
+**Analiza błędów aplikacji SaaS — Power BI Dashboard**
 
 📊 Business Intelligence | Power BI | Data Analysis
 
@@ -8,7 +8,10 @@ Dashboard analizujący błędy aplikacji SaaS pod kątem ich częstotliwości, c
 <img width="1446" height="810" alt="image" src="https://github.com/user-attachments/assets/0bbf2864-1c33-4710-adc2-f5cc30b3dc41" />
 
 
-**🎯 Business Questions**
+
+
+
+**🎯 Cel biznesowy**
 
 Projekt odpowiada na pytania:
 
@@ -20,7 +23,7 @@ Projekt odpowiada na pytania:
 - Czy błędy o wysokiej krytyczności skupiają się na konkretnych systemach operacyjnych lub urządzeniach (np. Android vs iOS, Desktop vs Mobile)? 
 
 
-**📌 Key Insights**
+**📌 Najważniejsze wnioski**
 
 Na podstawie analizy zidentyfikowano kilka kluczowych obszarów:
 - Płatności mają najwyższy wskaźnik rezygnacji klientów po wystąpieniu błędu — **23%**.
@@ -30,7 +33,9 @@ Na podstawie analizy zidentyfikowano kilka kluczowych obszarów:
 - Odsetek rozwiązanych błędów wynosi **89,1%**, czyli nieznacznie poniżej założonego celu >90%.
 - Ogólny churn klientów po wystąpieniu błędu pozostaje poniżej założonego limitu, jednak moduł płatności stanowi istotny wyjątek.
 
-**💡 Business Recommendations**
+
+
+**💡 Rekomendacje biznesowe**
 
 Na podstawie wyników rekomendowane są:
 1. Priorytetyzacja stabilności modułu płatności, ze względu na jego wpływ na churn.
@@ -38,14 +43,16 @@ Na podstawie wyników rekomendowane są:
 3. Szczegółowa analiza błędów w wersji 3.4.
 4. Przegląd procesu obsługi krytycznych błędów dla segmentu SMB.
 
-**🛠️ Tools**
+
+**🛠️ Wykorzystane narzędzia**
 - Power BI
 - DAX
 - Power Query
 - Data visualization
 - Business analysis
 
-**📈 Dashboard Features**
+
+**📈 Elementy dashboardu**
 - KPI cards
 - Segment filters
 - Date filtering
@@ -56,7 +63,8 @@ Na podstawie wyników rekomendowane są:
 - Error analysis by application version
 - Operating system and device analysis
 
-📁 Project Structure
+
+**📁 Struktura projektu**
 dashboard/    → Power BI report
 
 screenshots/  → dashboard preview
