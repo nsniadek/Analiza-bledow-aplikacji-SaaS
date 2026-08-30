@@ -1,0 +1,1 @@
+# Analiza-bledow-aplikacji-SaaS
